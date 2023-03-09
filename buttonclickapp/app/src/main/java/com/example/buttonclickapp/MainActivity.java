@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import java.util.List;
-
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -16,15 +14,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button buttonContacts = findViewById(R.id.ListOfContacts);
+        Button buttonContacts = this.findViewById(R.id.ListOfContacts);
+
         buttonContacts.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 Intent intent=new Intent(MainActivity.this,ListOfContacts.class);
                 startActivity(intent);
             }
-
-
         });
     }
 }
