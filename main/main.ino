@@ -4,7 +4,7 @@ Adafruit_GPS GPS(&Wire);
 
 void setup() {
   while(!Serial){}
-  Serial.begin(115200);
+  Serial.begin(9400);
   Serial.println("Adafruit GPS library basic I2C test");
   GPS.begin(0x10);
 }
