@@ -14,7 +14,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button buttonContacts = this.findViewById(R.id.ListOfContacts);
+
+        Button buttonContacts = findViewById(R.id.ListOfContactsBtn);
 
         buttonContacts.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -23,5 +24,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button buttonNotifications = findViewById(R.id.NotificationsBtn);
+
+        buttonNotifications.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent=new Intent(MainActivity.this,Notifications.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 }
