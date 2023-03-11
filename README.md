@@ -1,5 +1,7 @@
 # Проект за HackTUES 1001
 
+линк към презентация - https://docs.google.com/presentation/d/1rYt2xWURtPh6mdDup2aH0BdUbukPenyy1xrGOZXKrAY/edit?usp=sharing
+
 Нашият проект предоставя на потребителите най-добрата и бърза връзка при инцидент
 <br/>
 
