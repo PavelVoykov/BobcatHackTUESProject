@@ -6,22 +6,57 @@
     android:layout_height="match_parent"
     tools:context=".SecondFragment">
 
-    <TextView
-        android:id="@+id/textview_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/button_second"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button_second"
+        android:id="@+id/button_contact1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EmptyCF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="120dp"/>
+    <Button
+        android:id="@+id/button_contact2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EmptyCF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_contact1"
+        />
+    <Button
+        android:id="@+id/button_contact3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EmptyCF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_contact2" />
+    <Button
+        android:id="@+id/button_contact4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EmptyCF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_contact3" />
+    <Button
+        android:id="@+id/button_contact5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EmptyCF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_contact4" />
+    <Button
+        android:id="@+id/button_prev"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_second" />
+        android:layout_marginBottom="30dp"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
